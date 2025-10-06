@@ -41,7 +41,7 @@ An interactive, educational periodic table puzzle game that challenges players t
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/periodic-table-puzzle.git
+git clone https://github.com/Coder-Madhvan/periodic-table-puzzle.git
 
 # Navigate to the project directory
 cd periodic-table-puzzle
