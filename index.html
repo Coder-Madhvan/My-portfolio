@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Madhvan - Android, Flutter & Web Developer Portfolio">
+    <meta name="keywords" content="Madhvan, Android Developer, Flutter Developer, Web Developer, Portfolio">
+    <meta name="author" content="Madhvan">
+    <title>Madhvan | Developer Portfolio</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loader-wrapper">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Madhvan<span class="accent-dot">.</span></a>
+            </div>
+            
+            <div class="nav-menu" id="navMenu">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <i class="fas fa-sun sun-icon"></i>
+                    <i class="fas fa-moon moon-icon"></i>
+                </button>
+                
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <div class="floating-shape shape-1"></div>
+            <div class="floating-shape shape-2"></div>
+            <div class="floating-shape shape-3"></div>
+            <div class="gradient-bg"></div>
+        </div>
+        
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title animate-fade-up">
+                    Hi, I'm <span class="gradient-text">Madhvan</span>
+                </h1>
+                <div class="hero-subtitle animate-fade-up-delay">
+                    <span class="typing-text">Android, Flutter & Web Developer</span>
+                    <span class="cursor">|</span>
+                </div>
+                <p class="hero-description animate-fade-up-delay-2">
+                    Crafting innovative mobile and web experiences with passion and precision
+                </p>
+                
+                <div class="hero-buttons animate-fade-up-delay-3">
+                    <a href="https://github.com/Coder-Madhvan" target="_blank" class="btn btn-primary">
+                        <i class="fab fa-github"></i> View My Projects
+                    </a>
+                    <a href="#" class="btn btn-secondary" id="downloadResume">
+                        <i class="fas fa-download"></i> Download Résumé
+                    </a>
+                </div>
+                
+                <div class="social-links animate-fade-up-delay-4">
+                    <a href="https://github.com/Coder-Madhvan" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" target="_blank" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <p>Scroll Down</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <h2 class="section-title reveal">
+                <span class="gradient-text">About</span> Me
+            </h2>
+            
+            <div class="about-content">
+                <div class="about-image reveal-left">
+                    <div class="image-wrapper">
+                        <div class="image-glow"></div>
+                        <img src="https://via.placeholder.com/300x300/6366f1/ffffff?text=M" alt="Madhvan">
+                    </div>
+                </div>
+                
+                <div class="about-text reveal-right">
+                    <p class="about-intro">
+                        I'm a passionate developer who loves turning ideas into reality through code. 
+                        With expertise in Android, Flutter, and Web development, I create seamless 
+                        digital experiences that make a difference.
+                    </p>
+                    
+                    <div class="about-facts">
+                        <div class="fact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>India</p>
+                            </div>
+                        </div>
+                        <div class="fact-item">
+                            <i class="fas fa-heart"></i>
+                            <div>
+                                <h4>Interests</h4>
+                                <p>Mobile Apps, UI/UX, Innovation</p>
+                            </div>
+                        </div>
+                        <div class="fact-item">
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <h4>Availability</h4>
+                                <p>Open to Opportunities</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <p class="about-description">
+                        I specialize in building robust Android applications with Java and Kotlin, 
+                        creating beautiful cross-platform apps with Flutter, and developing responsive 
+                        web interfaces. My goal is to write clean, efficient code that solves real-world problems.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <h2 class="section-title reveal">
+                My <span class="gradient-text">Skills</span>
+            </h2>
+            
+            <div class="skills-grid">
+                <div class="skill-card reveal">
+                    <div class="skill-icon">
+                        <i class="fab fa-android"></i>
+                    </div>
+                    <h3>Android Development</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-skill="90">
+                            <span class="skill-percent">90%</span>
+                        </div>
+                    </div>
+                    <p>Java / Kotlin</p>
+                </div>
+                
+                <div class="skill-card reveal">
+                    <div class="skill-icon">
+                        <i class="fab fa-flutter"></i>
+                    </div>
+                    <h3>Flutter</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-skill="85">
+                            <span class="skill-percent">85%</span>
+                        </div>
+                    </div>
+                    <p>Dart / Cross-platform</p>
+                </div>
+                
+                <div class="skill-card reveal">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-skill="88">
+                            <span class="skill-percent">88%</span>
+                        </div>
+                    </div>
+                    <p>HTML / CSS / JavaScript</p>
+                </div>
+                
+                <div class="skill-card reveal">
+                    <div class="skill-icon">
+                        <i class="fas fa-fire"></i>
+                    </div>
+                    <h3>Firebase</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-skill="82">
+                            <span class="skill-percent">82%</span>
+                        </div>
+                    </div>
+                    <p>Database / Auth / Cloud</p>
+                </div>
+                
+                <div class="skill-card reveal">
+                    <div class="skill-icon">
+                        <i class="fab fa-git-alt"></i>
+                    </div>
+                    <h3>Git & GitHub</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-skill="87">
+                            <span class="skill-percent">87%</span>
+                        </div>
+                    </div>
+                    <p>Version Control</p>
+                </div>
+                
+                <div class="skill-card reveal">
+                    <div class="skill-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-skill="80">
+                            <span class="skill-percent">80%</span>
+                        </div>
+                    </div>
+                    <p>User Interface Design</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <h2 class="section-title reveal">
+                Featured <span class="gradient-text">Projects</span>
+            </h2>
+            
+            <div class="projects-grid">
+                <div class="project-card reveal">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250/6366f1/ffffff?text=Project+1" alt="Project 1">
+                        <div class="project-overlay">
+                            <i class="fab fa-android"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Android Task Manager</h3>
+                        <p>A feature-rich task management app built with Kotlin and Room database for efficient task organization.</p>
+                        <div class="project-tech">
+                            <span>Kotlin</span>
+                            <span>Room DB</span>
+                            <span>MVVM</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Coder-Madhvan" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card reveal">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250/10b981/ffffff?text=Project+2" alt="Project 2">
+                        <div class="project-overlay">
+                            <i class="fab fa-flutter"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Flutter E-Commerce App</h3>
+                        <p>Cross-platform shopping application with Firebase backend, payment integration, and beautiful UI.</p>
+                        <div class="project-tech">
+                            <span>Flutter</span>
+                            <span>Firebase</span>
+                            <span>Dart</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Coder-Madhvan" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card reveal">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250/f59e0b/ffffff?text=Project+3" alt="Project 3">
+                        <div class="project-overlay">
+                            <i class="fas fa-code"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Weather Dashboard</h3>
+                        <p>Responsive web application displaying real-time weather data with interactive charts and forecasts.</p>
+                        <div class="project-tech">
+                            <span>JavaScript</span>
+                            <span>API</span>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Coder-Madhvan" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card reveal">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250/ec4899/ffffff?text=Project+4" alt="Project 4">
+                        <div class="project-overlay">
+                            <i class="fab fa-android"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Fitness Tracker</h3>
+                        <p>Android app for tracking workouts, calories, and fitness goals with detailed analytics.</p>
+                        <div class="project-tech">
+                            <span>Java</span>
+                            <span>SQLite</span>
+                            <span>Charts</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Coder-Madhvan" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card reveal">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250/8b5cf6/ffffff?text=Project+5" alt="Project 5">
+                        <div class="project-overlay">
+                            <i class="fab fa-flutter"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Social Media App</h3>
+                        <p>Flutter-based social platform with real-time chat, posts, and user authentication.</p>
+                        <div class="project-tech">
+                            <span>Flutter</span>
+                            <span>Firebase</span>
+                            <span>Provider</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Coder-Madhvan" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card reveal">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250/06b6d4/ffffff?text=Project+6" alt="Project 6">
+                        <div class="project-overlay">
+                            <i class="fas fa-code"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Portfolio Website</h3>
+                        <p>Modern, responsive portfolio website with animations and dark mode support.</p>
+                        <div class="project-tech">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Coder-Madhvan" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="projects-cta reveal">
+                <a href="https://github.com/Coder-Madhvan" target="_blank" class="btn btn-primary btn-large">
+                    <i class="fab fa-github"></i> View All Projects on GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <h2 class="section-title reveal">
+                Get In <span class="gradient-text">Touch</span>
+            </h2>
+            
+            <div class="contact-content">
+                <div class="contact-info reveal-left">
+                    <h3>Let's Connect</h3>
+                    <p>I'm always interested in hearing about new projects and opportunities. Whether you have a question or just want to say hi, feel free to reach out!</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>madhvan.dev@example.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>India</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <span>Available for Freelance</span>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-social">
+                        <a href="https://github.com/Coder-Madhvan" target="_blank" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" target="_blank" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" target="_blank" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="contact-form-wrapper reveal-right">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required>
+                            <label for="name">Your Name</label>
+                            <span class="form-line"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email">Your Email</label>
+                            <span class="form-line"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <label for="message">Your Message</label>
+                            <span class="form-line"></span>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-submit">
+                            <span class="btn-text">Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                        
+                        <div class="form-message" id="formMessage"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Madhvan. All rights reserved.</p>
+                <p>Built with <span class="heart">❤️</span> using HTML, CSS & JavaScript</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
