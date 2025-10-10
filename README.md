@@ -154,3 +154,7 @@ Feel free to fork this project and customize it for your own use!
 ---
 
 Built with ❤️ using HTML, CSS & JavaScript
+
+
+© 2025 Madhvan Vaghamshi  
+Please give credit if you use this project.
