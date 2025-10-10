@@ -2,6 +2,13 @@
 
 A modern, responsive, and fully animated personal developer portfolio website showcasing Android, Flutter, and Web development skills.
 
+## 🖼️ Website Preview
+
+| Home Page | Projects Page | Contact Page |
+|-----------|---------------|--------------|
+| ![Home](assets/home.png) | ![Projects](assets/about.png) | ![Contact](assets/support.png) |
+
+
 ## 🌟 Features
 
 ### Design & UI
