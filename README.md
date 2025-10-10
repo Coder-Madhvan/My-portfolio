@@ -4,7 +4,7 @@ A modern, responsive, and fully animated personal developer portfolio website sh
 
 ## 🖼️ Website Preview
 
-| Home Page | Projects Page | Contact Page |
+| Home Page | About Page | Contact Page |
 |-----------|---------------|--------------|
 | ![Home](assets/home.png) | ![Projects](assets/about.png) | ![Contact](assets/support.png) |
 
