@@ -1,3 +1,6 @@
+// © 2025 Madhvan Vaghamshi
+// GitHub: https://github.com/Coder-Madhvan
+
 // ========================================
 // Theme Toggle Functionality
 // ========================================
